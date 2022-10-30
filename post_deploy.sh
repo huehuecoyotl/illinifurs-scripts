@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /apps/site/source
+cd /apps/scripts
 
 git remote update
 if !(git status -uno | grep -q "Your branch is up to date with 'origin/main'.")
